@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = git@github.com:TalentLens-SisDib/api.git
+[submodule "app"]
+	path = app
+	url = git@github.com:TalentLens-SisDib/app.git
