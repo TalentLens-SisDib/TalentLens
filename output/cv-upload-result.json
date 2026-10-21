@@ -1,0 +1,86 @@
+{
+  "uploadStatus": 201,
+  "readStatus": 200,
+  "location": "/profiles/158d82c9-9465-4eb8-85ee-2fd0e3818bc9",
+  "databaseConfirmed": true,
+  "profile": {
+    "id": "158d82c9-9465-4eb8-85ee-2fd0e3818bc9",
+    "name": "MARINA COSTA ALMEIDA",
+    "description": "Desenvolvedora com experiência na criação de aplicações web e APIs REST. Atuação com TypeScript, React, Node.js e PostgreSQL, testes automatizados e integração contínua. Interesse em acessibilidade e qualidade de software.",
+    "createdAt": "2026-10-21T00:16:18.603Z",
+    "updatedAt": "2026-10-21T00:16:18.603Z",
+    "skills": [
+      {
+        "skillId": "0f69941b-5178-4e21-a6be-5dbeec0c94fe",
+        "skillName": "JavaScript"
+      },
+      {
+        "skillId": "1cbd1f8d-1325-42de-9c83-823677b52f81",
+        "skillName": "Docker"
+      },
+      {
+        "skillId": "22f68d8d-30c0-4463-82b9-b57668f91733",
+        "skillName": "HTML"
+      },
+      {
+        "skillId": "4f3c5e8b-815e-48fd-957b-a9e59d744ca7",
+        "skillName": "Vitest"
+      },
+      {
+        "skillId": "67d354cd-db8d-481c-b47c-c51fc168458e",
+        "skillName": "SQL"
+      },
+      {
+        "skillId": "6d510f3a-516d-4e2e-a845-c6577bcad756",
+        "skillName": "NestJS"
+      },
+      {
+        "skillId": "825ca707-026a-4455-9d50-2a6166157605",
+        "skillName": "integração contínua"
+      },
+      {
+        "skillId": "82c1cede-c8d2-4848-ab9f-a36387f41ebe",
+        "skillName": "PostgreSQL"
+      },
+      {
+        "skillId": "84fe2b4f-ee7d-4e59-a996-0a19fbc05c3a",
+        "skillName": "CSS"
+      },
+      {
+        "skillId": "af1815ef-318c-491e-a752-86083af45f53",
+        "skillName": "TypeScript"
+      },
+      {
+        "skillId": "c6725393-a2e5-4b89-b7b5-9b6c0d6ef026",
+        "skillName": "APIs REST"
+      },
+      {
+        "skillId": "c6ea26ee-70e2-4d06-8cd0-b2788d3aeb4b",
+        "skillName": "React"
+      },
+      {
+        "skillId": "deb2a8af-49c0-42aa-b575-6dfb87b5e989",
+        "skillName": "Git"
+      },
+      {
+        "skillId": "df2b5772-f0db-495b-822e-f025ca201faa",
+        "skillName": "Scrum"
+      },
+      {
+        "skillId": "eb3d0253-1d05-4046-8738-19fd71d62c13",
+        "skillName": "Node.js"
+      }
+    ],
+    "educationalBackground": [
+      {
+        "id": "0317d4cc-ae41-4588-b221-d1b55afb57d7",
+        "institution": "Instituto Superior Fictício do Paraná",
+        "degree": "Bacharelado em Sistemas de Informação",
+        "startDate": "2019-02-01T00:00:00.000Z",
+        "endDate": "2022-12-15T00:00:00.000Z",
+        "profileId": "158d82c9-9465-4eb8-85ee-2fd0e3818bc9"
+      }
+    ],
+    "applications": []
+  }
+}
