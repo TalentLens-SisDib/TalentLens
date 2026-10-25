@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850" role="img" aria-labelledby="title desc">
+  <title id="title">Wireframe da interface de critérios de avaliação</title>
+  <desc id="desc">Três estados da seção de critérios de uma vaga: lista desktop, formulário de edição e exemplos de validação e falha ao salvar.</desc>
+  <defs>
+    <style>
+      text { font-family: Inter, "Segoe UI", sans-serif; fill: #283244; }
+      .muted { fill: #667085; }
+      .primary { fill: #315fd1; }
+      .small { font-size: 12px; }
+      .body { font-size: 14px; }
+      .heading { font-size: 17px; font-weight: 700; }
+      .panel { fill: #ffffff; stroke: #d9deea; stroke-width: 1; }
+      .field { fill: #ffffff; stroke: #bfc8d8; stroke-width: 1; }
+      .button { fill: #315fd1; }
+      .button-text { fill: #ffffff; font-weight: 600; }
+      .soft { fill: #f3f6fc; stroke: #dce4f4; stroke-width: 1; }
+      .error { fill: #a52f38; }
+    </style>
+  </defs>
+
+  <rect width="1500" height="850" fill="#f2f4f8" />
+  <text x="30" y="38" font-size="23" font-weight="700">TalentLens · Critérios de avaliação</text>
+  <text x="30" y="64" class="body muted">Wireframe desktop · especificação T09 · issue #35</text>
+  <text x="1470" y="42" text-anchor="end" class="small muted">Azul primário · superfícies claras · cartões com borda suave</text>
+
+  <!-- Overview and populated list -->
+  <rect x="30" y="100" width="460" height="720" rx="14" class="panel" />
+  <text x="50" y="132" class="small primary" font-weight="700">01 · VAGA / LISTA</text>
+  <text x="50" y="156" class="small muted">Seção abaixo dos dados gerais da vaga</text>
+  <rect x="48" y="178" width="424" height="500" rx="10" fill="#fbfcff" stroke="#e0e5ee" />
+  <text x="66" y="207" class="small primary" font-weight="700">AVALIAÇÃO</text>
+  <text x="66" y="234" class="heading">Critérios de avaliação</text>
+  <text x="66" y="256" class="small muted">Aspectos considerados nas candidaturas.</text>
+  <rect x="326" y="190" width="128" height="35" rx="7" class="button" />
+  <text x="390" y="212" text-anchor="middle" class="small button-text">+ Adicionar</text>
+  <circle cx="72" cy="282" r="7" fill="#e8eefb" stroke="#b9c9ee" />
+  <text x="86" y="286" class="small muted">Salvos neste navegador</text>
+
+  <rect x="65" y="306" width="188" height="148" rx="9" fill="#ffffff" stroke="#d9deea" />
+  <text x="80" y="333" class="body" font-weight="700">Comunicação</text>
+  <text x="80" y="355" class="small muted">Clareza ao conversar com</text>
+  <text x="80" y="373" class="small muted">clientes e equipe.</text>
+  <line x1="80" y1="390" x2="238" y2="390" stroke="#edf0f5" />
+  <text x="80" y="425" class="small primary">Editar</text>
+  <text x="136" y="425" class="small error">Remover</text>
+
+  <rect x="264" y="306" width="188" height="148" rx="9" fill="#ffffff" stroke="#d9deea" />
+  <text x="279" y="330" class="body" font-weight="700">Resolução de</text>
+  <text x="279" y="348" class="body" font-weight="700">problemas</text>
+  <text x="279" y="374" class="small muted">Analisa situações e propõe</text>
+  <text x="279" y="392" class="small muted">soluções práticas.</text>
+  <line x1="279" y1="409" x2="437" y2="409" stroke="#edf0f5" />
+  <text x="279" y="437" class="small primary">Editar</text>
+  <text x="335" y="437" class="small error">Remover</text>
+
+  <rect x="65" y="476" width="387" height="72" rx="8" class="soft" />
+  <text x="81" y="501" class="small" font-weight="600">Lista vazia</text>
+  <text x="81" y="522" class="small muted">Aviso de lista vazia + “Criar primeiro critério”</text>
+  <text x="81" y="540" class="small muted">para quem pode gerenciar.</text>
+  <text x="65" y="582" class="small muted">Somente leitura: cartões sem ações de alteração.</text>
+  <text x="65" y="605" class="small muted">Mobile: cartões em uma coluna.</text>
+  <text x="50" y="716" class="small muted">Ações de ícone devem ter rótulo com o nome do critério.</text>
+
+  <!-- Edit form -->
+  <rect x="520" y="100" width="460" height="720" rx="14" class="panel" />
+  <text x="540" y="132" class="small primary" font-weight="700">02 · FORMULÁRIO / EDIÇÃO</text>
+  <text x="540" y="156" class="small muted">Diálogo central; campos em uma coluna</text>
+  <rect x="541" y="178" width="418" height="480" rx="11" fill="#ffffff" stroke="#cfd6e4" />
+  <text x="565" y="214" class="heading">Editar critério</text>
+  <circle cx="930" cy="205" r="14" fill="#f3f5f9" />
+  <text x="930" y="210" text-anchor="middle" class="body muted">×</text>
+
+  <text x="565" y="253" class="body" font-weight="600">Nome <tspan class="error">*</tspan></text>
+  <rect x="565" y="264" width="370" height="42" rx="6" class="field" />
+  <text x="580" y="290" class="body">Comunicação com clientes</text>
+
+  <text x="565" y="338" class="body" font-weight="600">Descrição</text>
+  <rect x="565" y="350" width="370" height="114" rx="6" class="field" />
+  <text x="580" y="377" class="body">Avaliar clareza e escuta ativa</text>
+  <text x="580" y="399" class="body">nas conversas com clientes.</text>
+  <text x="935" y="484" text-anchor="end" class="small muted">66/2000 caracteres</text>
+
+  <line x1="542" y1="520" x2="958" y2="520" stroke="#e1e5ec" />
+  <rect x="726" y="539" width="94" height="38" rx="7" fill="#f1f3f7" />
+  <text x="773" y="563" text-anchor="middle" class="small" font-weight="600">Cancelar</text>
+  <rect x="830" y="539" width="105" height="38" rx="7" class="button" />
+  <text x="882" y="563" text-anchor="middle" class="small button-text">Salvar</text>
+
+  <rect x="541" y="680" width="418" height="83" rx="9" class="soft" />
+  <text x="559" y="707" class="small" font-weight="600">Modo de criação</text>
+  <text x="559" y="730" class="small muted">Título “Novo critério” · ação principal “Criar”.</text>
+  <text x="559" y="750" class="small muted">Salvar fecha o diálogo e atualiza a lista.</text>
+
+  <!-- Validation and save failure states -->
+  <rect x="1010" y="100" width="460" height="720" rx="14" class="panel" />
+  <text x="1030" y="132" class="small primary" font-weight="700">03 · VALIDAÇÃO / FALHA</text>
+  <text x="1030" y="156" class="small muted">Estados alternativos do formulário</text>
+  <rect x="1031" y="178" width="418" height="480" rx="11" fill="#ffffff" stroke="#cfd6e4" />
+  <text x="1055" y="214" class="heading">Novo critério</text>
+  <circle cx="1420" cy="205" r="14" fill="#f3f5f9" />
+  <text x="1420" y="210" text-anchor="middle" class="body muted">×</text>
+
+  <text x="1055" y="253" class="body" font-weight="600">Nome <tspan class="error">*</tspan></text>
+  <rect x="1055" y="264" width="370" height="42" rx="6" fill="#fffafa" stroke="#bd4c53" stroke-width="1.5" />
+  <text x="1070" y="290" class="small muted">Ex.: Comunicação com clientes</text>
+  <text x="1055" y="327" class="small error">Informe o nome do critério.</text>
+
+  <text x="1055" y="365" class="body" font-weight="600">Descrição</text>
+  <rect x="1055" y="377" width="370" height="87" rx="6" class="field" />
+  <text x="1070" y="403" class="small muted">O que observar neste critério? (opcional)</text>
+  <text x="1425" y="484" text-anchor="end" class="small muted">0/2000 caracteres</text>
+
+  <line x1="1032" y1="520" x2="1448" y2="520" stroke="#e1e5ec" />
+  <rect x="1216" y="539" width="94" height="38" rx="7" fill="#f1f3f7" />
+  <text x="1263" y="563" text-anchor="middle" class="small" font-weight="600">Cancelar</text>
+  <rect x="1320" y="539" width="105" height="38" rx="7" class="button" />
+  <text x="1372" y="563" text-anchor="middle" class="small button-text">Criar</text>
+
+  <rect x="1031" y="680" width="418" height="83" rx="9" fill="#fff8f6" stroke="#f0d2ca" />
+  <text x="1049" y="707" class="small error" font-weight="700">Falha ao salvar (cenário separado)</text>
+  <text x="1049" y="730" class="small muted">Aviso no formulário; manter diálogo e valores</text>
+  <text x="1049" y="750" class="small muted">editáveis e permitir nova tentativa.</text>
+</svg>
