@@ -1,0 +1,20 @@
+services:
+  github-runner:
+    image: ghcr.io/myoung34/docker-github-actions-runner:latest
+    restart: unless-stopped
+    environment:
+      RUNNER_SCOPE: org
+      ORG_NAME: TalentLens-SisDib
+      ACCESS_TOKEN: ${GITHUB_RUNNER_TOKEN:?Set GITHUB_RUNNER_TOKEN in the runner stack}
+      RUNNER_NAME_PREFIX: talentlens-portainer
+      RUNNER_WORKDIR: /tmp/runner/work
+      LABELS: talentlens
+      EPHEMERAL: "true"
+      CONFIGURED_ACTIONS_RUNNER_FILES_DIR: /runner/data
+    volumes:
+      - runner_data:/runner/data
+      - runner_work:/tmp/runner/work
+
+volumes:
+  runner_data:
+  runner_work:
