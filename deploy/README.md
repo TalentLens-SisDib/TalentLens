@@ -40,4 +40,6 @@ Crie uma API key do Portainer e adicione estes **Actions secrets** em cada repos
 - `PORTAINER_ENDPOINT_ID`: `2`, conforme a URL do Portainer informada.
 - `PORTAINER_CA_CERT`: opcional; certificado CA em PEM se o Portainer usar certificado próprio.
 
-O runner local precisa conseguir acessar `PORTAINER_URL` e confiar no certificado TLS. Um push para `main` publica a imagem (nos repositórios `app` e `api`) e o runner manda o Portainer repuxar as imagens e atualizar a stack.
+O curl conecta diretamente a `PORTAINER_CONNECT_IP:9443` e valida o certificado como `localhost`, usando `PORTAINER_CA_CERT`. Um push para `main` publica a imagem (nos repositórios `app` e `api`) e o runner manda o Portainer repuxar as imagens e atualizar a stack.
+
+Depois de alterar um workflow, use **Actions → Run workflow → main** para executar a versão atual. **Re-run jobs** executa novamente a versão do commit antigo.
