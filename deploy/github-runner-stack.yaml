@@ -1,6 +1,6 @@
 services:
   github-runner:
-    image: ghcr.io/myoung34/docker-github-actions-runner:latest
+    image: ghcr.io/myoung34/docker-github-actions-runner:ubuntu-noble
     restart: unless-stopped
     environment:
       RUNNER_SCOPE: org
