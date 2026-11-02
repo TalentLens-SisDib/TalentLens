@@ -9,13 +9,4 @@ services:
       RUNNER_NAME_PREFIX: talentlens-portainer
       RUNNER_WORKDIR: /tmp/runner/work
       LABELS: talentlens
-      EPHEMERAL: "false"
-      DISABLE_AUTOMATIC_DEREGISTRATION: "true"
-      CONFIGURED_ACTIONS_RUNNER_FILES_DIR: /runner/data
-    volumes:
-      - runner_data:/runner/data
-      - runner_work:/tmp/runner/work
-
-volumes:
-  runner_data:
-  runner_work:
+      EPHEMERAL: "true"
