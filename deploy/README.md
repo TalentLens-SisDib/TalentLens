@@ -27,6 +27,8 @@ Defina na stack:
 
 No Cloudflare Tunnel, a rota pública do domínio deve apontar para `http://web:80` na rede Docker da stack. Não crie rota pública para o Portainer.
 
+Quando o `cloudflared` desta stack aparecer conectado no Cloudflare, pare e remova a stack bootstrap antiga. Ela usa outra rede Docker e não consegue resolver o serviço `web`.
+
 ## 4. Configurar atualização automática
 
 Crie uma API key do Portainer e adicione estes **Actions secrets** em cada repositório (`TalentLens`, `app` e `api`):
