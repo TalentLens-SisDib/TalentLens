@@ -33,7 +33,8 @@ Quando o `cloudflared` desta stack aparecer conectado no Cloudflare, pare e remo
 
 Crie uma API key do Portainer e adicione estes **Actions secrets** em cada repositório (`TalentLens`, `app` e `api`):
 
-- `PORTAINER_URL`: endereço local acessível pelo container runner, por exemplo `https://192.168.1.65:9443`.
+- `PORTAINER_URL`: `https://localhost:9443` (o certificado atual cobre `localhost`).
+- `PORTAINER_CONNECT_IP`: IP local do Portainer, por exemplo `192.168.1.65`.
 - `PORTAINER_API_KEY`: API key do Portainer.
 - `PORTAINER_STACK_ID`: ID da stack da aplicação no Portainer.
 - `PORTAINER_ENDPOINT_ID`: `2`, conforme a URL do Portainer informada.
